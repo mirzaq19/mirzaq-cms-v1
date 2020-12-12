@@ -104,5 +104,6 @@
         //     } );
         $(document).ready(function() {
         $('#contentpost').summernote();
+        });
     </script>
 @endsection
