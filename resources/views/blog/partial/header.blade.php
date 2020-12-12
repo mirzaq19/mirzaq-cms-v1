@@ -16,7 +16,7 @@
 
                 <!-- logo -->
                 <div class="nav-logo">
-                    <a href="index.html" class="logo"><img src="{{asset('argon/assets/img/brand/asset1.png')}}" alt=""></a>
+                    <a href="{{route('blog')}}" class="logo"><img src="{{asset('argon/assets/img/brand/asset1.png')}}" alt=""></a>
                 </div>
                 <!-- /logo -->
 
