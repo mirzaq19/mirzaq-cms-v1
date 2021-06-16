@@ -53,7 +53,7 @@ class PostController extends Controller
         // dd($request->all());
         $gambar = $request->gambar;
         $namagambar = time().".".$gambar->getClientOriginalExtension();
-        $direktori = 'uploads/posts/gambar/';
+        $direktori = '../../../public/uploads/posts/gambar/';
         $gambar->move($direktori,$namagambar);
         $post = Post::create([
             'judul' => $request->judul,
